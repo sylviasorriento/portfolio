@@ -1,0 +1,109 @@
+
+/* ------------- Global -------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 4.5rem;
+  color: #7D6693;
+  font-family: "Limelight";
+}
+
+h2 {
+  font-size: 3.6rem;
+  color: #7D6693;
+  font-family: "Limelight";
+}
+
+h3 {
+  font-size: 2.8rem;
+  color: #2B3744;
+  font-family: "Limelight";
+}
+
+p {
+  font-size: 2.4rem;
+  color: #2B3744;
+  font-family: "Raleway";
+}
+
+/* ------------- Nav -------------- */
+.navbar {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  padding: 1rem;
+  padding-left: 5rem;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.8rem;
+}
+
+li {
+  display: inline;
+  padding: .5rem;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  float: right;
+  color: #2B3744;
+  font-family: "Raleway";
+}
+
+li a:hover {
+  color: #7D6693;
+}
+/* ------------- Hero Unit -------------- */
+
+.hero-unit {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.hero-unitL {
+  padding-right: 40px;
+  float: left;
+}
+
+.hero-unitR {
+  float: right;
+  /* padding-left: 50px; */
+}
+
+.recent-portfolio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container  {
+  padding: 30px 30px 20px;
+}
+/* ------------- About Me -------------- */
+
+.bio-photo {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;  /*-- NEED TO CHANGE FOR MOBILE --*/
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
