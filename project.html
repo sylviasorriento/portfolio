@@ -9,31 +9,272 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Limelight">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <div class="header">
     <nav class="navbar">
       <ul>
-        <!-- PORTFOLIO LOGO AND HOME BUTTON -->
         <a href="index.html"><img src="images/gray_logo.jpg" class="logo" alt="portfolio logo" width="75" height="75"/></a>
-        <li><a href="project.html">Work</a></li>
-        <li><a href="about.html">About Me</a></li>
+        <div id="myLinks">
+          <li><a href="project.html">Work</a></li>
+          <li><a href="about.html">About Me</a></li>
+        </div>
       </ul>
     </nav>
+    <a href="javascript:void(0);" class="hamburger" alt=hamburger onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
 
   <body>
     <div class="container">
-      <!-- CASESTUDY -->
-      <section class="casestudy">
+      <!--- CASESTUDY HEADER --->
+      <section class="casestudy-header">
         <img src="images/prototypes.png" class="web-mobile-prototypes" alt="web and mobile prototypes"/>
+        <img src="images/svd_black.png" class="svd-logo" alt="black svd logo"/>
         <h3>Saved, all in one place.</h3>
         <p>A could storage application.</p>
       </section>
-      <!-- END-CASESTUDY-->
-      <section>
-        <p></p>
+      <!--- CASE STUDY DETAILS --->
+      <section class="casestudy-details">
+        <h2>My Role.</h2>
+        <ul>
+          <li>UX Design</li>
+          <li>Visual Design</li>
+          <li>Brand &amp Identity</li>
+        </ul>
+        <h2>Design Deliverables.</h2>
+        <ul>
+          <li>User Survey</li>
+          <li>Competitive Analysis</li>
+          <li>User Personas</li>
+          <li>User Stories & Flows</li>
+          <li>Content Strategy</li>
+          <li>Paper Prototypes</li>
+          <li>Wireframes</li>
+          <li>LoFi Clickable Prototype</li>
+          <li>Usability Testing</li>
+          <li>Branding - Research</li>
+          <li>Sketching</li>
+          <li>Moodboards</li>
+          <li>Style Guide</li>
+          <li>HiFi Mockups</li>
+          <li>Preference Testing</li>
+          <li>Web and Mobile HiFi Clickable Prototype</li>
+        </ul>
+        <h2>Specifications.</h2>
+        <ul>
+          <li><b>Duration</b></li>
+          <li>8 weeks</li>
+          <li> </li>
+          <li>Tools amp& Software</li>
+          <li>Figma</li>
+          <li>Invision</li>
+          <li>Draw IO</li>
+          <li>UsabilityHub</li>
+        </ul>
+      </section>
+      <!--- CASE STUDY BREIFING --->
+      <section class="casestudy-breifing">
+        <h2>Summary</h2>
+          <p>The brand, “svd,” which stands for, “Saved,” is a cloud storage application where a user can save links, upload files, create content, share files and collaborate directly in-site. Saving files and links all in one organized location has never been simpler. Svd’s thumbnail presentation of elements makes searching through stored items easy and enjoyable.</p>
+        <h2>Problem</h2>
+          <p>There are big competitors in the cloud storage market, but competitors lack easy in-site communication, optimized organization, and the ability to efficiently store links.</p>
+        <h2>Solution</h2>
+          <p>The solutions are to offer in-site collaboration, so users no longer have to communicate through an external application. Another solution is to offer the ability to save links as thumbnails and simplify organization by creating folders to store links, uploaded files, or creative content all in one place. Users have the ability to paste links directly in the application to create a thumbnail or can use a Chrome add-in feature that would allow for users to save links directly through their browser. The use of thumbnails makes scanning through stored items less overwhelming.</p>
+      </section>
+      <!--- CASE STUDY DISCOVERY & RESEARCH --->
+      <section class="discovery-research">
+        <h2>Discovery &amp Research</h2>
+        <!--- CASE STUDY SURVEY --->
+        <section class="survey">
+          <section class="surveyL">
+            <h3>Survey</h3>
+            <p>Svd was designed to be used by all ages and for various uses, whether it be school, work, or personal. Through user research, the data collected stated that 75% of users would like a real-time collaborative feature built into their current cloud storage application. The majority of participants have previously used an external application or in-person communication to discuss a shared item on a cloud storage application. Research suggests an increase in productivity by implementing in-site communication. This is why an in-site chat feature was added into the svd application. Users can share saved items directly through the chat in addition to the other methods of sharing. In-site chat is an instant messenger system that allows users to communicate in real-time without ever leaving the application. Research also showed that users wanted a tool for creating a library of weblinks with more functionality than bookmarks or copy-pasting links into a word document. This was also implemented in the design through the use of thumbnails and the Chrome add-in.
+            <br><a href="https://docs.google.com/document/d/1o8kXt3HcfBsJkLeqr2znVEXd-VLO8PoWSPNcBVH7EYg/edit">Survey Results</a></p>
+          </section>
+          <section class="surveyR">
+            <img src="images/survey_img1.png" class="survey-imgs" alt="Sruvey Img 1 - Pie Chart">
+            <img src="images/survey_img2.png" class="survey-imgs" alt="Survey Img 2 - Bar Graph">
+          </section>
+        </section>
+        <!--- CASE STUDY COMPETITIVE ANALYSIS --->
+        <section class="competitive-analyis">
+          <section class="competitive-analysisT">
+            <h3>Competitive Analysis</h3>
+            <p>There are many competitors in the cloud storage field. The three main companies used for research were Google Drive, Dropbox, and Pinterest. While Google Drive and Dropbox are very similar, Pinterest is a bit different from the two. Pinterest only allows the user to save content in a consolidated location, while Google Drive and Dropbox allow users to store and create content. All three applications offer a free version for users and all three offer personal and business platforms. The competition is most significant between Google Drive and Dropbox, but there are also additional competitors in the Cloud Storage Marketplace. The market is expanding and the demand continues to grow. The items previously mentioned, in-site chat and the ability to attractively store links is what separates svd from the competition. All three of these companies that dominate the marketplace offer a free version, therefore svd would do the same, with options to upgrade at a cost.
+            <br><a href="https://docs.google.com/document/d/11xp3xau3IlFNzKMiaDiRa7x_KDQJ7rHOx51CW9eDl9E/edit">Competitive Analysis</a></p>
+          </section>
+          <section class="competitive-analysisB">
+            <img src="images/competitive_analysis_img1.png" class="competitive-analyis-imgs" alt="Google Drive Screenshot">
+            <img src="images/competitive_analysis_img2.png" class="competitive-analyis-imgs" alt="Dropbox Screenshot">
+            <img src="images/competitive_analysis_img3.png" class="competitive-analyis-imgs" alt="Pinterest Screenshot">
+          </section>
+        </section>
+        <!--- CASE STUDY PERSONAS --->
+        <section class="personas">
+          <h3>Personas</h3>
+          <section class="personasL">
+            <img src="images/personas_maria.png" class="persona-imgs" alt="Maria Persona Img">
+            <p>Maria is a 20-year-old college student. Maria’s primary usage for cloud storage applications is for school projects where she has to collaborate with her schoolmates. Maria is on the volleyball team and constantly traveling for games which makes collaborating with classmates difficult. Maria’s classmates will typically meet in person while Maria works on projects remotely. Having to communicate through email or text creates a lag in communication and causes her much frustration. Maria thinks in-site chat features would make connecting with her classmates a whole lot easier.
+            <br>“With classes and practice it’s hard to stay organized.”</p>
+          </section>
+          <section class="personasR">
+            <img src="images/personas_john.png" class="persona-imgs" alt="John Persona Img">
+            <p>John is a 53-year-old Customer Service Agent at a small insurance agency. John uses cloud storage applications for work and personal organization. John has different frustrations than Maria. John is always finding helpful links online. He uses his cloud storage applications to save documents and files, but has to save links to websites and articles in a separate location. John’s goal is to save everything all in one place.
+            <br>“I think organization is everything!”
+            <br><a href="https://docs.google.com/document/d/10G-TDxHZgJ5-DzG1zTmjdUGeqlbsNz5sFe1tIzqk3vI/edit">Competitive Analysis</a></p>
+          </section>
+        </section>
+      </section>
+      <!--- CASE STUDY INFORMATION ARCHITECTURE --->
+      <section class="information-architecture">
+        <h2>Information Architecture</h2>
+        <!--- CASE STUDY USER STORIES --->
+        <section class="user-stories">
+          <section class="user-storiesL">
+            <img src="images/user_stories.png" class="user-stories-img" alt="User Stories Img">
+          </section>
+          <section class="user-storiesR">
+            <h3>User Stories</h3>
+            <p>In order to clearly document what our app will do, user stories were created. A range of high, medium, and low priority tasks were recorded. These are the most important tasks needed in order for the svd application to function. The priorities of these tasks were adjusted to be better in accordance with the Pareto Principle, 80% of use comes from 20% of the functionality. The high priority tasks include: signing into an existing account, creating an account with email, creating an account with a Facebook login, saving a link, creating a document, starting a chat, sharing a document, and uploading a document. Medium priority tasks include: creating a folder, adding an item to a folder, creating a subfolder, renaming a folder, adding multiple participants to a chat, changing a password, deleting a file, deleting a folder, and deleting a link. Lastly, the low priority tasks include: changing a profile picture, editing chat notification settings, changing the font in a document, stopping the sharing of a document, logging out of an account, deleting a chat, and installing the Chrome add-in.</p>
+          </section>
+        </section>
+        <!--- CASE STUDY USER FLOWS --->
+        <section class="user-flows">
+          <section class="user-flowsL">
+            <h3>User Flows</h3>
+            <p>From the user stories, fourteen of the most essential tasks were selected and used for the creation of user flows. Sketched versions were created and those sketches were turned into digital versions. All high priority user stories were used in addition to 2 medium and 2 low priority user stories. The medium priority user stories include: creating a subfolder and deleting a folder and the low priority user stories include: logging out of an account and deleting a chat. The way the competition processes tasks were considered and the tasks the competitors did successfully were carried over and altered slightly if necessary.
+            <br><a href="https://drive.google.com/file/d/1q9TWNIpTVZu-zqpR4vGf34E6BL-RBm6p/view">Digital User Flows</a>
+            <br><a href="https://drive.google.com/drive/folders/1p6dQuCNQ_pfFXdt5onuHyK2uwpr2RvVz">User Flow Sketches</a></p>
+          </section>
+          <section class="user-flowsR">
+            <img src="images/user_flow_img1.png" class="user-flow-imgs" alt="User Flow Img 1 - Log In">
+          </section>
+          <section class="user-flowsB">
+            <img src="images/user_flow_img2.png" class="user-flow-imgs" alt="User Flow Img 2 - Save a Link">
+          </section>
+        </section>
+        <!--- CASE STUDY WIREFRAMES --->
+        <section class="wireframes">
+          <section class="wireframesL">
+            <h3>Wireframes</h3>
+            <p>Wireframes for each of the user flows were created next. There were numerous iterations of these. First, the wireframes were sketched on paper and then created digitally. In the digital wireframes, buttons became more consistent along with the sizing of all the content on each page. The Home Dashboard screen shows all the files and folders in the user’s account, the files were altered multiple times to meet reasonable size proportions. The Option View was also restructured into a more simplified popover feature. The Create File screen also underwent multiple changes, originally the screen had a submenu, but the submenu was changed into a popover screen for better readability. Improvements to the Delete File and Delete Folder screens were also made. When the Delete File or Delete Folder popover screen appears, the folder or file being deleted was made darker to indicate that the screen that is opening at that moment is referring to deleting that folder or file.
+            <br><a href="https://drive.google.com/file/d/1DdwVaWD-Dthsbzdq8-fTkjwWA3LHmoKP/view">Sitemap</a>
+            <br><a href="https://drive.google.com/drive/folders/1XvBtNrUGnM0EexIOHmZpaM6PRB3eRWrd">Wireframe Sketches</a></p>
+          </section>
+          <section class="wireframesR">
+            <img src="images/wireframe_sketch_img1.png" class="wireframe-imgs" alt="Wireframe Sketch 1 - Home Pg">
+          </section>
+          <section class="wireframesB">
+            <img src="images/wireframe_sketch_img2.png" class="wireframe-imgs" alt="Wireframe Sketch 2 - Dashboard">
+            <img src="images/wireframe_sketch_img3.png" class="wireframe-imgs" alt="Wireframe Sketch 3 - Settings">
+            <img src="images/wireframe_sketch_img4.png" class="wireframe-imgs" alt="Wireframe Sketch 4 - Delete">
+          </section>
+        </section>
+        <!--- CASE STUDY DIGITAL WIREFRAMES --->
+        <section class="digital-wireframes">
+          <section class="digital-wireframesT">
+            <h3>Digital Wireframes</h3>
+            <p>The mockups also endured multiple revisions. Feedback suggested that the size of the files and folders were still too large. In order to match typical thumbnail sizes, the elements were adjusted to about half their previous size. The buttons were also adjusted to have the same amount of padding on either side of the wording where necessary. After receiving feedback from user testing, the chat windows were also adjusted. On the desktop version, instead of having both the chat recent conversations window and a new chat window open at once, the screen was adjusted to minimize the chat favorites window when a new chat opened. For the mobile version, the layout was changed even more so. Instead of having the chat window open as a popup chat, the mockup was updated to take the user to a screen of its own. The new screen showed the recent conversations with an add button to create a new chat. The new chat now opens as a full-screen popover.
+            <br><a href="https://drive.google.com/drive/folders/1Y2UwhkVzkLMUGKVp2OX6zzO3qeIdjpdu">Digital Wireframes</a>
+            <br><a href="https://projects.invisionapp.com/share/6UW4PT1Q4AC#/screens/406497757_1_Welcome_Dashboard_-_VERSION_3">Wireframe Prototype</a></p>
+          </section>
+          <section class="digital-wireframesB">
+            <img src="images/digital_wireframe_img1.png" class="digital-wireframe-imgs" alt="Digital Wireframe Img 1 - Home Pg">
+            <img src="images/digital_wireframe_img2.png" class="digital-wireframe-imgs" alt="Digital Wireframe Img 2 - Settings">
+            <img src="images/digital_wireframe_img3.png" class="digital-wireframe-imgs" alt="Digital Wireframe Img 3 - Delete">
+          </section>
+        </section>
+      </section>
+      <!--- CASE STUDY VISUAL DESIGN --->
+      <section class="visual-design">
+        <!--- CASE STUDY COLOR PALETTE --->
+        <section class="color-palette">
+          <section class="color-paletteL">
+            <img src="images/color_palette.png" class="color-palette-img" alt="Color Palette Img">
+          </section>
+          <section class="color-paletteR">
+            <h3>Color Palette</h3>
+            <p>Svd is attempting to build a brand that is sleek, simple, and retro, yet modern. The minimalist brand has selected colors that pop in attempts to excite users. The brand’s primary color is purple which symbolizes creativity and imagination. Users should feel inspired to create content and organize their stored items for further success. Blue was also used as it represents calmness and reliability and yellow which is bright and energizing and is associated with happiness. The overall objective of the site is to increase productivity through a simplified straightforward structure.</p>
+          </section>
+          <section class="color-paletteB">
+            <img src="images/style_guide.png" class="style-guide-img" alt="Style Guide Img">
+          </section>
+        </section>
+        <!--- CASE STUDY LOGO & TYPOGRAPHY --->
+        <section class="logo-typography">
+          <section class="logo-typographyL">
+            <h3>Logo &amp Typography</h3>
+            <p>The logo went through various iterations. The final iteration, in addition to the use of color, captured the modern feel of the brand. The combination of typefaces Comfortaa and Montserrat seems to couple well with the logo and enhances the modern sleek feel of the brand. Comfortaa also hints at the retro feel of the brand.
+            <br><a href="https://drive.google.com/file/d/11RsCRk_Uysp11-R2OGWoxDVI7IbmwIoQ/view">Style Guide</a></p>
+          </section>
+          <section class="logo-typographyR">
+            <img src="images/logo_sketches.png" class="logo-sketches-img" alt="Logo Sketches Img">
+          </section>
+          <section class="logo-typographyB">
+            <img src="images/logo_imgs.png" class="logo-imgs" alt="Logo Imgs">
+          </section>
+        </section>
+        <!--- CASE STUDY ITERATIONS --->
+        <section class="iterations">
+          <h3>Iterations</h3>
+          <p>The updated versions of the mockups were used to create the prototypes which really brought the project together. Reviewing the product in this manner reassured the work that was put into the designs. Compiled together, everything flowed well and as expected. Seeing the designs in this structure brought minor imperfects forward, such as the placement of components. Tweaks were made to create the final product.
+          <br><a href="https://drive.google.com/drive/folders/15ku90Ib-yofkNbDhZ_UgzNKXiHxogffp">HiFi Mockups - 1st Iteration</a>
+          <br><a href="https://drive.google.com/drive/folders/1m5Jb3aUpV64h-Pv3FAMKZz_tVwHsoo4r">HiFi Mockups - Final Iterations</a></p>
+        </section>
+        <!--- CASE STUDY DESKTOP ITERATIONS --->
+        <section class="desktop-iterations">
+          <h3>Desktop Dashboard Iterations</h3>
+          <img src="images/desktop_iteration_img1.png" class="desktop-iteration-imgs" alt="Destktop Iteration Img 1">
+          <p>1st Iteration</p>
+          <img src="images/desktop_iteration_img2.png" class="desktop-iteration-imgs" alt="Destktop Iteration Img 2">
+          <p>Final Iteration</p>
+        </section>
+        <!--- CASE STUDY MOBILE ITERATIONS --->
+        <section class="mobile-iterations">
+          <h3>Mobile Chat Iterations</h3>
+          <img src="images/mobile_iteration_img1.png" class="mobile-iteration-imgs" alt="Mobile Iteration Img 1">
+          <p>1st Iteration</p>
+          <img src="images/mobile_iteration_img2.png" class="mobile-iteration-imgs" alt="Mobile Iteration Img 2">
+          <p>Final Iteration</p>
+        </section>
+      </section>
+      <!--- CASE STUDY PROTOTYPE & TESTING --->
+      <section class="prototype-testing">
+        <h2>Prototype/Testing</h2>
+        <section class="preference-testing">
+          <h3>Preference Testing</h3>
+          <p>Preference testing was done on a few different screens. Whether the buttons should be square or rounded was questioned, and the majority of testers liked the rounded option, so the design was not changed. Testers were also asked if they liked windows opening as popovers or on a new screen. The majority liked the popover feature, so that also remained unchanged. Additionally, the background of the Homepage was questioned. The final product was the view selected by users.
+          <br><a href="https://app.usabilityhub.com/do/bc0e3d9f9e39/6784">Preference Test</a></p>
+        </section>
+        <section class="usability-testing">
+          <h3>Usability Testing</h3>
+          <p>Implementing user testing drew in some great feedback. The overall consensus was that the web and mobile applications are simple to use and visually pleasing. One participant stated they liked the color palette and liked how the yellow on the Homepage made the screen pop. Suggestions were made to add a Drag and Drop feature for the organization of files into folders on the Home Dashboard. Another suggested that having an option to organize files by recently or most frequently used would be helpful rather than just alphabetical order. Feedback from testing also advocated for the changes to the chat window views in both web and mobile versions as previously mentioned.
+          <br><a href="https://docs.google.com/document/d/1Zkpkl78Si7jQZ6AHlYsffPGJIX8kGDYkm1OCG7_CKSc/edit">Usability Testing Script</a></p>
+        </section>
+      </section>
+      <!--- CASE STUDY CONCLUSION --->
+      <section class="conclusion">
+        <section class="conclusionL">
+          <h2>Conclusion</h2>
+          <p>Overall, receiving feedback from user testing was very helpful and altered the final iteration for the better. My biggest concerns going into this project were how to compete with the giant moguls already in the cloud storage market space. After receiving user feedback on what users were missing, the product started to stand more and more of a chance. Looking back and moving forward I think it is important to get user feedback as much as possible and as early as possible. Although I am satisfied with the design, the next project I work on I would like to receive feedback earlier to build off the collaborative ideas and push the boundaries with the creativity of the final design. I’ve learned it is important to trust the feedback received in addition to my own thoughts and that it is important to build off of that feedback.</p>
+        </section>
+        <section class="conclusionR">
+          <button type="button" class="white-prototype-button" name="Desktop Prototype"><a href="https://projects.invisionapp.com/share/4CWDT3YN3S6">Desktop Prototype</a></button>
+          <button type="button" class="white-prototype-button" name="Mobile Prototype"><a href="https://projects.invisionapp.com/share/MTWEYKMH97V#/screens">Mobile Prototype</a></button>
+        </section>
       </section>
     </div>
   </body>
+
+  <footer>
+    <h3><a href="mailto:sylviasorriento@gmail.com?subject=Connecting">Let's Connect!</a></h3>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/sylvia-sorriento/"><i class="fa fa-linkedin-square" style="font-size:36px;color:#7D6693"></i>
+      <a href="https://github.com/sylviasorriento"><i class="fa fa-github-square" style="font-size:36px;color:#7D6693"></i>
+      <a href="mailto:sylviasorriento@gmail.com?subject=Connecting"><i class="fa fa-envelope-square" style="font-size:36px;color:#7D6693"></i>
+    </div>
+  </footer>
 </html>
