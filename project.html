@@ -18,15 +18,22 @@
       <nav class="navbar">
         <ul>
           <a href="index.html"><img src="images/gray_logo.jpg" class="logo" alt="portfolio logo"/></a>
-          <div id="myLinks">
+          <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <script>
+          function myFunction(x) {
+            x.classList.toggle("change");
+          }
+          </script>
+          <!-- <div id="myLinks">
             <li><a href="project.html">Work</a></li>
             <li><a href="about.html">About Me</a></li>
-          </div>
+          </div> -->
         </ul>
       </nav>
-      <a href="javascript:void(0);" class="hamburger" alt=hamburger onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
     </header>
 
     <main class="work">
@@ -275,9 +282,9 @@
     <footer>
       <h3><a href="mailto:sylviasorriento@gmail.com?subject=Connecting">Let's Connect!</a></h3>
       <div class="footer-links">
-        <a href="https://www.linkedin.com/in/sylvia-sorriento/"><i class="fa-linkedin-square"></i>
-        <a href="https://github.com/sylviasorriento"><i class="fa-github-square"></i>
-        <a href="mailto:sylviasorriento@gmail.com?subject=Connecting"><i class="fa-envelope-square"></i>
+        <a href="https://www.linkedin.com/in/sylvia-sorriento/" class="fa fa-linkedin"></a>
+        <a href="https://github.com/sylviasorriento" class="fa fa-github"></a>
+        <a href="mailto:sylviasorriento@gmail.com?subject=Connecting" class="fa fa-envelope"></a>
       </div>
     </footer>
   </body>
