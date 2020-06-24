@@ -1,5 +1,5 @@
 
-/* ------------- Global -------------- */
+/*-------------Global--------------*/
 
 * {
   box-sizing: border-box;
@@ -11,59 +11,70 @@ html {
 
 body {
   background-color: #fff;
-  width: 100% auto;
+  width: 100%;
 }
 
-/* Font */
+/* ----- Font ----- */
 
 h1 {
-  font-size: 3rem;
   color: #7D6693;
   font-family: "Limelight";
+  font-size: 4rem;
+  line-height: 4.5rem;
 }
 
 h2 {
-  font-size: 2rem;
   color: #7D6693;
   font-family: "Limelight";
+  font-size: 2.5rem;
+  letter-spacing: .5px;
 }
 
 h3 {
-  font-size: 1.5rem;
   color: #2B3744;
   font-family: "Limelight";
+  font-size: 1.8rem;
+  letter-spacing: .5px;
+  padding-top: 1rem;
 }
 
 p {
-  font-size: 1.5rem;
   color: #2B3744;
   font-family: "Raleway";
+  font-size: 1.5rem;
+  line-height: 130%;
 }
 
 li {
-  font-size: 1.5rem;
   color: #2B3744;
   font-family: "Raleway";
+  font-size: 1.5rem;
+  line-height: 130%;
+}
+
+a {
+  color: #7D6693;
+  margin-top: 1.5rem;
 }
 
 a:hover {
   color: #AFC9E0;
 }
 
-/* Buttons */
+/* ----- Buttons ----- */
 
 .purple-button {
   background-color: white;
-  color: #7D6693;
   border: 2px solid #7D6693;
+  border-radius: 30px;
+  color: #7D6693;
+  display: inline-block;
+  font-family: "Raleway";
+  font-size: 1.5rem;
   padding: 15px 32px;
+  margin-top: 1.5rem;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 1.5rem;
-  font-family: "Raleway";
-  border-radius: 30px;
-  margin-top: 1.5rem;
 }
 
 .purple-button:hover {
@@ -73,16 +84,16 @@ a:hover {
 
 .white-button {
   background-color: #fff;
+  border-radius: 30px;
   color: #2B3744;
   border: 2px solid #2B3744;
+  display: inline-block;
+  font-family: "Raleway";
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 1.5rem;
-  font-family: "Raleway";
-  border-radius: 30px;
-  margin-top: 1.5rem;
 }
 
 .white-button:hover {
@@ -92,45 +103,81 @@ a:hover {
 
 .gray-button {
   background-color: #2B3744;
+  border-radius: 30px;
   color: #fff;
   border: 2px solid #fff;
+  display: inline-block;
+  font-family: "Raleway";
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 1.5rem;
-  font-family: "Raleway";
-  border-radius: 30px;
-  margin-top: 1.5rem;
 }
 
 .gray-button:hover {
   background-color: #fff;
   color: #2B3744;
 }
-/* ------------- Nav -------------- */
+/* ----- Nav ----- */
 
+.logo {
+  height: 55px;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  width: 55px;
+}
+
+/*---hamburger---*/
+
+.container {
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+  margin-right: 2rem;
+  margin-top: 3.3rem;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 3px;
+  background-color: #2B3744;
+  margin: 6px 0;
+  opacity: 75%;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-7px, -4px);
+}
 .header-container {
   width: 100%;
 }
+/*---End hamburger---*/
 
 .navbar {
-  overflow: hidden;
   background-color: #fff;
-  /* width: 100%; */
-  /* position: relative; */
+  overflow: hidden;
+  padding-bottom: 2rem;
 }
 
-.navbar #myLinks {
+/* .navbar #myLinks {
   display: none;
-}
-
+} */
+/*
 .navbar a {
   color: white;
+  font-size: 17px;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-  /* display: block; */
 }
 
 .navbar a.hamburger {
@@ -138,79 +185,80 @@ a:hover {
 }
 
 ul {
-  list-style-type: none
+  font-size: 1.8rem;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 1.8rem;
 }
 
 .hamburger {
-  width: 35px;
-  height: 5px;
   background-color: white;
-  margin: 6px 0;
   color: black;
   display: inline;
   float: right;
+  height: 75px;
+  padding: .5rem;
+  width: 75px;
 }
 
 #myLinks {
-  display: inline;
-  padding: .5rem;
-  margin-top: 2rem;
-  margin-right: 5rem;
-  float: right;
   color: #2B3744;
+  display: inline;
+  float: right;
   font-family: "Raleway";
+  margin-right: 5rem;
+  margin-top: 2rem;
+  padding: .5rem;
 }
 
 li a:hover {
   color: #7D6693;
-}
-
-.logo {
-  width: 55px;
-  height: 55px;
-  padding: .5rem;
-}
+} */
 
 footer {
-  text-align: center;
   padding: 2rem;
+  text-align: center;
 }
 
-.footer-links {
-  padding-top: 1rem;
+
+.footer-linker:hover {
+  color: #AFC9E0;
 }
 
 footer a {
   color: #7D6693;
+  text-decoration: none;
 }
 
-.fa-linkedin-square, .fa-github-square, .fa-envelope-square {
-width: 75px;
+.fa {
+    font-size: 5rem;
+    padding: .5rem;
+    padding-bottom: 1.5em;
+    text-decoration: none;
 }
-/* ------------- Home Page -------------- */
+
+/* ----- Home Page ----- */
 
 section {
   max-width: 100%;
 }
 
 .sections {
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
-.profile-photo {
+/* .profile-photo {
   width: 50%;
+} */
+
+#hero-unit {
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+  max-width: 80%;
 }
 
-.hero-unitR p {
-  margin-top: 1rem;
-}
-
-.hero-unitR {
-  margin-top: 1rem;
-  max-width: 90%;
+#hero-unit p {
+  margin-top: 1.5rem;
 }
 
 #recent-portfolio {
@@ -220,24 +268,40 @@ section {
 #recent-portfolio p {
   color: #fff;
 }
+#recent-portfolio h3 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.recent-portfolioL {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.recent-portfolioR {
+  margin-bottom: 5rem;
+  margin-top: 1.5rem;
+}
 
 .svd-logo {
   width: 70px;
 }
 
 .web-mobile-prototypes {
-  width: 100%;
   padding: 1.5rem;
+  width: 100%;
 }
 
-/* ------------- Case Study -------------- */
+/* ----- Case Study ----- */
+
 .work {
   max-width: 100%;
 }
 
 .work h3, h2 {
-  margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .work h2 {
@@ -245,11 +309,14 @@ section {
 }
 
 #casestudy-header {
+  margin-bottom: 5rem;
   text-align: center;
 }
 
 #casestudy-details {
   background-color: #2B3744;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
   text-align: center;
 }
 
@@ -257,8 +324,25 @@ section {
   color: #fff;
 }
 
+#casestudy-details h2 {
+  margin-top: 1.5rem;
+}
+
+#casestudy-breifing {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
 #casestudy-breifing h2 {
   text-align: left;
+}
+
+#discovery-research {
+  padding-top: 5rem;
+}
+
+#prototype-testing {
+  padding-bottom: 5rem;
 }
 
 #discovery-research, #information-architecture, #visual-design, #prototype-testing {
@@ -271,6 +355,8 @@ section {
 
 #conclusion {
   background-color: #2B3744;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 
 #conclusion p {
@@ -279,139 +365,122 @@ section {
 
 #conclusion h2 {
   color: #fff;
+  text-align: left;
 }
 
-/*
-.competitive-analysis {
-  background-color: #F8F7F7;
+.conclusionR {
+  text-align: center;
 }
 
-#casestudy-breifing {
-  background-color: #F8F7F7;
-} */
-
-/* #casestudy-header {
-  display: block;
-  margin-left: : auto;
-  margin-right: auto;
-} */
-
-/* Casestudy images */
+/* ----- Casestudy images ----- */
 
 .survey-imgs {
-  width: 100%;
   padding: 2rem;
+  width: 100%;
 }
 
 .competitive-analyis-imgs {
-  width: 100%;
   padding: 2rem;
+  width: 100%;
 }
 
 .persona-imgs {
-  width: 100%;
   padding: 2rem;
+  width: 100%;
 }
 
 .user-stories-img {
-  width: 100%;
   padding: 2rem;
+  width: 100%;
 }
 
 .user-flow-imgs {
-  width: 100%;
   padding: 2rem;
+  width: 100%;
 }
 
 .wireframe-imgs {
-  width: 100%;
   padding: 2rem;
+  width: 100%;
 }
 
 .digital-wireframe-imgs {
-  width: 100%;
   padding: 2rem;
+  width: 100%;
 }
 
 .color-palette-img {
-  width: 100%;
   padding: 2rem;
+  width: 100%;
 }
 
 .style-guide-img {
-  width: 100%;
   padding: 2rem;
+  width: 100%;
 }
 
 .logo-sketches-img {
-  width: 100%;
   padding: 2rem;
+  width: 100%;
 }
 
 .logo-imgs {
-  width: 100%;
   padding: 2rem;
+  width: 100%;
 }
 
 .desktop-iteration-imgs {
-  width: 100%;
   padding: 2rem;
+  width: 100%;
 }
 
 .mobile-iteration-imgs {
-  width: 60%;
   padding: 2rem;
+  width: 100%;
 }
 
 
-/* ------------- About Me -------------- */
+/* ----- About Me ----- */
+
 .about-me {
   max-width: 100%;
+  background-color: #F8F7F7;
 }
+
 .bio-photo {
   width: 100%;
 }
 
 .pull-quote {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   width: 100%;
-  padding: 1.5rem;
 }
 
 #bio h3 {
-  margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
-/* .hero-unitR {
-  padding: 1.5rem;
-  padding-top: 0;
-}
+/* ------------- IPAD -------------- */
 
-
-.bio-photo {
-  width: 100%;
-  margin: 0 auto;
-  height: auto;  /*-- NEED TO CHANGE FOR MOBILE --*/
-
-
-@media screen and (min-width: 768px) /*Desktop*/ {
-
+@media screen and (min-width: 768px) {
   body {
-    width: 100% auto;
+    width: 100%;
   }
 
   .logo {
-    width: 75px;
     height: 75px;
     padding: .5rem;
+    width: 75px;
   }
 
   .hero-unit {
     max-width: 100%;
   }
   .profile-photo {
-    width: 15%;
     padding: 1.5rem;
+    width: 15%;
   }
 
   .hero-unitR {
@@ -429,8 +498,70 @@ section {
   }
 
   .recent-portfolio {
-    max-width: 50%;
     background-color: #2B3744;
+    max-width: 50%;
+  }
+
+  .recent-portfolio p {
+    color: #fff;
+  }
+
+  .recent-portfolioL{
+    max-width: 60%;
+    padding: 1.5rem;
+  }
+
+  .web-mobile-prototypes {
+    padding: 2rem;
+    width: 100%;
+  }
+
+  /* ----- Case Study ----- */
+
+  .work{
+    max-width: 100%;
+  }
+
+  .casestudy-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ------------- DESKTOP -------------- */
+
+@media screen and (min-width: 1025px) {
+  body {
+    width: 100%;
+  }
+
+  .logo {
+    height: 75px;
+    padding: .5rem;
+    width: 75px;
+  }
+
+  .hero-unit {
+    max-width: 100%;
+  }
+  .profile-photo {
+    padding: 1.5rem;
+    width: 20%;
+  }
+
+  .hero-unitR {
+    padding: 1.5rem;
+    padding-top: 0;
+  }
+
+  .hero-unitR p {
+    margin-top: 1rem;
+  }
+
+  .recent-portfolio {
+    background-color: #2B3744;
+    max-width: 100%;
   }
 
   .recent-portfolio p {
@@ -439,80 +570,21 @@ section {
 
   .recent-portfolioL{
     padding: 1.5rem;
-    max-width: 60%;
   }
 
   .web-mobile-prototypes {
-    width: 100%;
     padding: 2rem;
+    width: 50%;
   }
 
-  /* ------------- Case Study -------------- */
+  /* ----- Case Study ----- */
   .work{
     max-width: 100%;
   }
 
   .casestudy-header {
     display: block;
-    margin-left: : auto;
+    margin-left: auto;
     margin-right: auto;
   }
 }
-@media screen and (min-width: 1025px) /*Desktop*/ {
-
-    body {
-      width: 100% auto;
-    }
-
-    .logo {
-      width: 75px;
-      height: 75px;
-      padding: .5rem;
-    }
-
-    .hero-unit {
-      max-width: 100%;
-    }
-    .profile-photo {
-      width: 20%;
-      padding: 1.5rem;
-    }
-
-    .hero-unitR {
-      padding: 1.5rem;
-      padding-top: 0;
-    }
-
-    .hero-unitR p {
-      margin-top: 1rem;
-    }
-
-    .recent-portfolio {
-      max-width: 100%;
-      background-color: #2B3744;
-    }
-
-    .recent-portfolio p {
-      color: #fff;
-    }
-
-    .recent-portfolioL{
-      padding: 1.5rem;
-    }
-
-    .web-mobile-prototypes {
-      width: 50%;
-      padding: 2rem;
-    }
-
-    /* ------------- Case Study -------------- */
-    .work{
-      max-width: 100%;
-    }
-
-    .casestudy-header {
-      display: block;
-      margin-left: : auto;
-      margin-right: auto;
-    }
-  }
