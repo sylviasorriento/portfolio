@@ -169,57 +169,50 @@ a:hover {
   padding-bottom: 2rem;
 }
 
-/* .navbar #myLinks {
+.navbar #myLinks {
   display: none;
-} */
-/*
+}
+
+.change + #myLinks {
+  display: block;
+}
+
 .navbar a {
-  color: white;
-  font-size: 17px;
-  padding: 14px 16px;
+  font-size: 2.5rem;
   text-decoration: none;
-}
-
-.navbar a.hamburger {
-  background-color: black;
-}
-
-ul {
-  font-size: 1.8rem;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.hamburger {
-  background-color: white;
-  color: black;
-  display: inline;
-  float: right;
-  height: 75px;
-  padding: .5rem;
-  width: 75px;
+  line-height: 140%;
 }
 
 #myLinks {
-  color: #2B3744;
   display: inline;
   float: right;
   font-family: "Raleway";
   margin-right: 5rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   padding: .5rem;
+  height: 100%;
+  width: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: #F8F7F7;
+  opacity: 95%;
+  text-align: center;
+  padding-top: 50%;
 }
 
-li a:hover {
-  color: #7D6693;
-} */
+.change .bar1 .bar3 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
 
 footer {
   padding: 2rem;
   text-align: center;
 }
-
 
 .footer-linker:hover {
   color: #AFC9E0;
@@ -231,7 +224,6 @@ footer a {
 }
 
 .fa {
-    font-size: 5rem;
     padding: .5rem;
     padding-bottom: 1.5em;
     text-decoration: none;
@@ -246,6 +238,10 @@ section {
 .sections {
   padding: 2rem;
 }
+
+/* .main-container {
+  padding: 2rem;
+} */
 
 /* .profile-photo {
   width: 50%;
@@ -449,6 +445,9 @@ section {
 
 .bio-photo {
   width: 100%;
+  height: 100%;
+  object-position: 50% 50%;
+  object-fit: cover;
 }
 
 .pull-quote {
