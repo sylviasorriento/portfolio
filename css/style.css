@@ -471,6 +471,10 @@ section {
     width: 100%;
   }
 
+  .sections {
+    padding: 4rem;
+  }
+
   .logo {
     height: 75px;
     padding: .5rem;
@@ -510,11 +514,12 @@ section {
 
   #recent-portfolio {
     display: grid;
-    grid-template-columns: 500px, 500px;
+    /* grid-template-columns: 500px, 500px; */
     flex-wrap: wrap;
     display: inline-block;
     float: left;
     margin-bottom: 5rem;
+    width: 100%;
   }
 
   .recent-portfolioL {
@@ -526,6 +531,12 @@ section {
     display: inline-block;
     float: right;
     width: 50%;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%; */
   }
 
   /* ----- Case Study ----- */
@@ -579,6 +590,7 @@ section {
     float: left;
     width: 33%;
     padding: 2rem;
+    padding-left: 0px;
   }
 
   .problem {
@@ -593,12 +605,138 @@ section {
     float: right;
     width: 33%;
     padding: 2rem;
+    padding-right: 0px;
   }
 
   #casestudy-breifing {
-    padding-bottom: 25rem;
+    padding-bottom: 32rem;
   }
 
+  .survey-imgs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
+  }
+
+  .competitive-analyis-imgs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
+  }
+
+  .persona-imgs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
+  }
+
+  .user-stories-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
+  }
+
+  .user-flow-imgs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
+  }
+
+  .wireframe-imgs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
+  }
+
+  .digital-wireframe-imgs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
+  }
+
+  .color-palette-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
+  }
+
+  .style-guide-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
+  }
+
+  .logo-sketches-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
+  }
+
+  .logo-imgs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
+  }
+
+  .desktop-iteration-imgs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    width: 85%;
+  }
+
+  .mobile-iteration-img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    width: 65%;
+  }
+
+  .mobile-iteration-img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 85%;
+  }
+
+/*
   .survey {
     display: grid;
     grid-template-columns: 500px, 500px;
@@ -928,7 +1066,7 @@ section {
     float: right;
     width: 50%;
     padding: 2rem;
-  }
+  } */
 
   #prototype-testing {
     display: grid;
