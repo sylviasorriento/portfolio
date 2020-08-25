@@ -177,6 +177,7 @@ a:hover {
 .change + #myLinks {
   display: block;
   top: 93px;
+  position: fixed;
 }
 
 .navbar a {
@@ -201,14 +202,23 @@ a:hover {
   background-color: #F8F7F7;
   opacity: 95%;
   text-align: center;
-  padding-top: 50%;
+  padding-top: 30%;
 }
 
 .change .bar1 .bar3 {
-  position: absolute;
-  top: 20px;
+  /* position: absolute; */
+  /* top: 20px;
   right: 45px;
-  font-size: 60px;
+  font-size: 60px; */
+  /* z-index: 10;
+  position: relative; */
+  display: inline-inline-block;
+  float: right;
+  cursor: pointer;
+  margin-right: 2rem;
+  margin-top: 3.3rem;
+  position: relative;
+  z-index: 1000;
 }
 
 footer {
@@ -302,9 +312,14 @@ section {
   text-align: center;
 }
 
+main {
+  background-color: #F8F7F7;
+}
+
 #casestudy-header {
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
   text-align: center;
+  background-color: #fff
 }
 
 #casestudy-details {
@@ -325,6 +340,7 @@ section {
 #casestudy-breifing {
   padding-bottom: 5rem;
   padding-top: 5rem;
+  background-color: #fff
 }
 
 #casestudy-breifing h2 {
@@ -339,9 +355,9 @@ section {
   padding-bottom: 5rem;
 }
 
-#discovery-research, #information-architecture, #visual-design, #prototype-testing {
+/* #discovery-research, #information-architecture, #visual-design, #prototype-testing {
   background-color: #F8F7F7;
-}
+} */
 
 .desktop-iterations, .mobile-iterations {
   text-align: center;
@@ -505,9 +521,11 @@ section {
     font-size: 6rem;
     line-height: 6.5rem;
   }
+
   h3 {
     font-size: 2.2rem;
   }
+
   p {
     font-size: 1.8rem;
   }
@@ -628,7 +646,7 @@ section {
   }
 
   .competitive-analyis-imgs {
-    display: block;
+    /* display: block; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
@@ -756,6 +774,7 @@ section {
     width: 50%;
     padding: 2rem;
   }
+
   .usability-testing {
     display: inline-block;
     float: right;
@@ -778,6 +797,7 @@ section {
     width: 50%;
     padding: 2rem;
   }
+
   .conclusionR {
     display: inline-block;
     float: right;
@@ -815,6 +835,7 @@ section {
 /* ------------- DESKTOP -------------- */
 
 @media screen and (min-width: 1025px) {
+
   body {
     width: 100%;
   }
@@ -899,15 +920,6 @@ section {
     margin: 2rem;
   }
 
-  /* #casestudy-details {
-    display: grid;
-    grid-template-columns: 500px, 500px;
-    flex-wrap: wrap;
-    display: inline-block;
-    float: left;
-    margin-bottom: 5rem;
-  } */
-
   .my-role {
     display: inline-block;
     float: left;
@@ -967,6 +979,7 @@ section {
     padding: 2rem;
     padding-top: 0;
   }
+
   .surveyR {
     display: inline-block;
     float: right;
@@ -988,6 +1001,7 @@ section {
     width: 50%;
     padding: 2rem;
   }
+
   .competitive-analysisR {
     display: inline-block;
     float: right;
@@ -999,7 +1013,7 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%; }
+    width: 100%;
   }
 
   .competitive-analysisBL {
@@ -1035,8 +1049,8 @@ section {
     float: left;
     width: 50%;
     padding: 2rem;
-    /* padding-right: 3rem; */
   }
+
   .personasR {
     display: inline-block;
     float: right;
@@ -1071,6 +1085,7 @@ section {
     width: 50%;
     padding-left: 2rem;
   }
+
   .user-stories-img {
     padding: 0px;
   }
@@ -1118,6 +1133,7 @@ section {
     width: 50%;
     padding: 2rem;
   }
+
   .wireframesR {
     display: inline-block;
     float: right;
@@ -1319,6 +1335,7 @@ section {
     width: 50%;
     padding: 2rem;
   }
+
   .conclusionR {
     display: inline-block;
     float: right;
