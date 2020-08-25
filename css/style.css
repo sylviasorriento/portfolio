@@ -349,8 +349,8 @@ section {
 
 #conclusion {
   background-color: #2B3744;
-  padding-bottom: 5rem;
-  padding-top: 5rem;
+  padding: 4rem;
+
 }
 
 #conclusion p {
@@ -430,7 +430,7 @@ section {
 
 .mobile-iteration-img1 {
   padding: 2rem;
-  width: 100%;
+  width: 50%;
 }
 
 .mobile-iteration-img2 {
@@ -768,7 +768,8 @@ section {
     flex-wrap: wrap;
     display: inline-block;
     float: left;
-    margin-bottom: 5rem;
+    margin: 5rem;
+    padding: 2rem;
   }
 
   .conclusionL {
@@ -797,8 +798,11 @@ section {
    }
 
   .pull-quote {
-    padding: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 70%;
+    padding: 3rem;
   }
 
   #bio p {
@@ -961,12 +965,12 @@ section {
     float: left;
     width: 50%;
     padding: 2rem;
+    padding-top: 0;
   }
   .surveyR {
     display: inline-block;
     float: right;
     width: 50%;
-    padding: 2rem;
   }
 
   .competitive-analysisT {
@@ -992,11 +996,10 @@ section {
   }
 
   .competitive-analysisB {
-    display: grid;
-    flex-wrap: wrap;
-    display: inline-block;
-    float: left;
-    margin-bottom: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; }
   }
 
   .competitive-analysisBL {
@@ -1015,6 +1018,8 @@ section {
 
   .competitive-analyis-imgs {
     padding: 0px;
+    margin: 0 auto;
+    display: inline-block;
   }
 
   .personas {
@@ -1030,7 +1035,7 @@ section {
     float: left;
     width: 50%;
     padding: 2rem;
-    padding-right: 3rem;
+    /* padding-right: 3rem; */
   }
   .personasR {
     display: inline-block;
@@ -1064,7 +1069,7 @@ section {
     display: inline-block;
     float: left;
     width: 50%;
-    padding: 2rem;
+    padding-left: 2rem;
   }
   .user-stories-img {
     padding: 0px;
@@ -1093,9 +1098,10 @@ section {
   }
 
   .user-flowsB {
-    width: 45%;
-    padding-top: 2rem;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
   }
 
   .wireframes {
@@ -1150,7 +1156,6 @@ section {
     flex-wrap: wrap;
     display: inline-block;
     float: left;
-    margin-bottom: 5rem;
   }
 
   .digital-wireframesL {
@@ -1158,19 +1163,20 @@ section {
     float: left;
     width: 50%;
     padding: 2rem;
+    padding-top: 0;
   }
+
   .digital-wireframesR {
     display: inline-block;
     float: right;
     width: 50%;
-    padding: 2rem;
   }
 
   .digital-wireframesB {
-    display: grid;
-    flex-wrap: wrap;
-    display: inline-block;
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     margin-bottom: 5rem;
   }
 
@@ -1179,6 +1185,7 @@ section {
     float: left;
     width: 50%;
   }
+
   .digital-wireframes-img3 {
     display: inline-block;
     float: right;
@@ -1203,12 +1210,14 @@ section {
     float: right;
     width: 50%;
     padding: 2rem;
+    padding-top: 0;
   }
 
   .color-paletteB {
-    width: 50%;
-    padding-top: 2rem;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
   }
 
   .logo-typography {
@@ -1224,11 +1233,13 @@ section {
     float: left;
     width: 50%;
   }
+
   .logo-typographyR {
     display: inline-block;
     float: right;
     width: 50%;
     padding: 2rem;
+    padding-top: 0;
   }
 
   .iterations {
@@ -1236,11 +1247,10 @@ section {
   }
 
   .desktop-iterations {
-    display: grid;
-    flex-wrap: wrap;
-    display: inline-block;
-    float: left;
-    margin-bottom: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 
   .desktop-iterationsL {
@@ -1257,11 +1267,10 @@ section {
   }
 
   .mobile-iterations {
-    display: grid;
-    flex-wrap: wrap;
-    display: inline-block;
-    float: left;
-    margin-bottom: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 
   .mobile-iterationsL {
@@ -1316,6 +1325,7 @@ section {
     width: 50%;
     padding: 2rem;
   }
+
 
   /* ----- About Me ----- */
 
