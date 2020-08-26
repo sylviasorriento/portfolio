@@ -177,7 +177,6 @@ a:hover {
 .change + #myLinks {
   display: block;
   top: 93px;
-  position: fixed;
 }
 
 .navbar a {
@@ -202,23 +201,14 @@ a:hover {
   background-color: #F8F7F7;
   opacity: 95%;
   text-align: center;
-  padding-top: 30%;
+  padding-top: 20%;
 }
 
 .change .bar1 .bar3 {
-  /* position: absolute; */
-  /* top: 20px;
+  position: absolute;
+  top: 20px;
   right: 45px;
-  font-size: 60px; */
-  /* z-index: 10;
-  position: relative; */
-  display: inline-inline-block;
-  float: right;
-  cursor: pointer;
-  margin-right: 2rem;
-  margin-top: 3.3rem;
-  position: relative;
-  z-index: 1000;
+  font-size: 60px;
 }
 
 footer {
@@ -254,11 +244,13 @@ section {
 #hero-unit {
   margin-bottom: 6rem;
   margin-top: 6rem;
-  max-width: 80%;
+  max-width: 100%;
+  background-color: #fff;
 }
 
 #hero-unit p {
   margin-top: 1.5rem;
+  max-width: 80%;
 }
 
 #recent-portfolio {
@@ -460,6 +452,7 @@ main {
 .about-me {
   max-width: 100%;
   background-color: #F8F7F7;
+  padding-bottom: 2rem;
 }
 
 .bio-photo {
@@ -1131,7 +1124,7 @@ main {
     display: inline-block;
     float: left;
     width: 50%;
-    padding: 2rem;
+    padding: 3rem;
   }
 
   .wireframesR {
@@ -1142,29 +1135,23 @@ main {
   }
 
   .wireframesB {
-    display: grid;
-    flex-wrap: wrap;
-    display: inline-block;
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     margin-bottom: 5rem;
   }
 
   .wireframe-img2 {
     display: inline-block;
     float: left;
-    width: 33%;
+    width: 50%;
   }
 
   .wireframe-img3 {
     display: inline-block;
-    float: center;
-    width: 33%;
-  }
-
-  .wireframe-img4 {
-    display: inline-block;
     float: right;
-    width: 33%;
+    width: 50%;
   }
 
   .digital-wireframes {
@@ -1193,7 +1180,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
   }
 
   .digital-wireframes-img2 {
