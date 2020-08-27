@@ -242,7 +242,7 @@ section {
 }
 
 #hero-unit {
-  margin-bottom: 6rem;
+  padding-bottom: 6rem;
   margin-top: 6rem;
   max-width: 100%;
   background-color: #fff;
@@ -295,13 +295,15 @@ section {
   max-width: 100%;
 }
 
-.work h3, h2 {
+.work h3 {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
 
 .work h2 {
   text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 main {
@@ -351,7 +353,7 @@ main {
   background-color: #F8F7F7;
 } */
 
-.desktop-iterations, .mobile-iterations {
+.desktop-iterations p, .mobile-iterations p {
   text-align: center;
 }
 
@@ -993,6 +995,7 @@ main {
     float: left;
     width: 50%;
     padding: 2rem;
+    padding-top: 0;
   }
 
   .competitive-analysisR {
@@ -1102,7 +1105,7 @@ main {
     display: inline-block;
     float: right;
     width: 50%;
-    padding: 5rem;
+    padding: 2rem;
   }
 
   .user-flowsB {
